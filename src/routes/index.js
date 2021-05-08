@@ -56,7 +56,48 @@ const routes = [
   },
   {
     path: "/example6",
-    main: () => <h2>Shoelaces</h2>,
+    main: () => (
+      <div>
+        <h2>Welcome to React!</h2> <br />
+        <p>Be sure to close all tags!</p>
+        <hr />
+      </div>
+    ),
+  },
+  {
+    path: "/example7",
+    main: () => (
+      <div>
+      </div>
+    ),
+  },
+  {
+    path: "/example8",
+    main: () => (
+      <div>
+      </div>
+    ),
+  },
+  {
+    path: "/example9",
+    main: () => (
+      <div>
+      </div>
+    ),
+  },
+  {
+    path: "/example10",
+    main: () => (
+      <div>
+      </div>
+    ),
+  },
+  {
+    path: "/example11",
+    main: () => (
+      <div>
+      </div>
+    ),
   },
 ];
 
