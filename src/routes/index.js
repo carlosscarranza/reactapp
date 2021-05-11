@@ -195,140 +195,189 @@ const routes = [
   },
   {
     path: "/example11",
-    main: () => <div></div>,
-  },
-  {
-    path: "/example12",
-    main: () => <div></div>,
-  },
-  {
-    path: "/example13",
-    main: () => <div></div>,
-  },
-  {
-    path: "/example14",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
   {
     path: "/example11",
-    main: () => <div></div>,
+    main: () => 
+    (<div></div>),
   },
+  {
+    path: "/example11",
+    main: () => 
+    (<div></div>),
+  },
+  {
+    path: "/example11",
+    main: () => 
+    (<div></div>),
+  },
+  {
+    path: "/example11",
+    main: () => 
+    (<div></div>),
+  },
+  {
+    path: "/example11",
+    main: () => 
+    (<div></div>),
+  },
+  {
+    path: "/example11",
+    main: () => 
+    (<div></div>),
+  },
+  {
+    path: "/example11",
+    main: () => 
+    (<div></div>),
+  }
 ];
 
 export default routes;
