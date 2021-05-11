@@ -67,37 +67,212 @@ const routes = [
   {
     path: "/example7",
     main: () => (
-      <div>
-      </div>
+      <div>Completed challenge!</div>
+      // const MyComponent = function() {
+      //   // Change code below this line
+      //   return(
+      //       <div>Completed challenge!</div>
+      //   );
+      //   // Change code above this line
+      // }
     ),
   },
   {
     path: "/example8",
     main: () => (
       <div>
+        <h1>Hello React!</h1>
       </div>
+      // class MyComponent extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //   }
+      //   render() {
+      //     // change code below this line
+      //     return (
+      //       <div>
+      //        <h1>Hello React!</h1>
+      //       </div>
+      //     );
+      //     // change code above this line
+      //   }
+      // }
     ),
   },
   {
     path: "/example9",
     main: () => (
       <div>
+        <h1>I am the parent</h1>
+        <div>
+          <p>I am the child</p>
+        </div>
       </div>
+      // const ChildComponent = () => {
+      //   return (
+      //     <div>
+      //       <p>I am the child</p>
+      //     </div>
+      //   );
+      // }
+
+      // class ParentComponent extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //   }
+      //   render() {
+      //     return (
+      //       <div>
+      //         <h1>I am the parent</h1>
+      //         { /* Change code below this line */ }
+
+      //             <ChildComponent />
+      //         { /* Change code above this line */ }
+      //       </div>
+      //     );
+      //   }
+      // }
     ),
   },
   {
     path: "/example10",
-    main: () => (
-      <div>
-      </div>
-    ),
+    main: () => <div></div>,
   },
   {
     path: "/example11",
-    main: () => (
-      <div>
-      </div>
-    ),
+    main: () => <div></div>,
+  },
+  {
+    path: "/example12",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example13",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example14",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
+  },
+  {
+    path: "/example11",
+    main: () => <div></div>,
   },
 ];
 
