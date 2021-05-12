@@ -798,76 +798,113 @@ const routes = [
   },
   {
     path: "/example30",
+    main: () => (
+      <div>
+        <h1>Hello, my name is: CamperBot</h1>
+      </div>
+      // class MyApp extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //     this.state = {
+      //       name: "CamperBot"
+      //     };
+      //   }
+      //   render() {
+      //     return (
+      //       <div>
+      //         {/* // Here we will call this.state.name in order to pass the value of
+      //         CamperBot // to the NavBar component */}
+      //         <Navbar name={this.state.name} />
+      //       </div>
+      //     );
+      //   }
+      // }
+
+      // class Navbar extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //   }
+      //   render() {
+      //     return (
+      //       <div>
+      //         {/* // Since we passed in the CamperBot state value into the the NavBar
+      //         component above // the h1 element below will render the value passed
+      //         from state */}
+      //         <h1>Hello, my name is: {this.props.name}</h1>
+      //       </div>
+      //     );
+      //   }
+      // }
+    ),
+  },
+  {
+    path: "/example31",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example32",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example33",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example34",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example35",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example36",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example37",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example38",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example39",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example40",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example41",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example42",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example43",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example44",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example45",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example46",
     main: () => <div></div>,
   },
   {
-    path: "/example20",
+    path: "/example47",
     main: () => <div></div>,
-  },
-  {
-    path: "/example20",
-    main: () => <div></div>,
-  },
+  }
 ];
 
 export default routes;
