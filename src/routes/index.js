@@ -839,35 +839,358 @@ const routes = [
   },
   {
     path: "/example31",
-    main: () => <div></div>,
+    main: () => (
+      <div>
+        <div>
+          <h3>Get Input:</h3>
+          <input />
+        </div>
+        <div></div>
+        <div>
+          <h3>Input Render:</h3>
+          <p></p>
+        </div>
+      </div>
+
+      // class MyApp extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //     this.state = {
+      //       inputValue: ''
+      //     }
+      //   this.handleChange = this.handleChange.bind(this);
+      //   }
+      //   handleChange(event) {
+      //     this.setState({
+      //       inputValue: event.target.value
+      //     });
+      //   }
+      //   render() {
+      //     return (
+      //        <div>
+      //          <GetInput
+      //            input={this.state.inputValue}
+      //            handleChange={this.handleChange}/>
+      //          <RenderInput
+      //            input={this.state.inputValue}/>
+      //        </div>
+      //     );
+      //   }
+      // };
+
+      // class GetInput extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //   }
+      //   render() {
+      //     return (
+      //       <div>
+      //         <h3>Get Input:</h3>
+      //         <input
+      //           value={this.props.input}
+      //           onChange={this.props.handleChange}/>
+      //       </div>
+      //     );
+      //   }
+      // };
+
+      // class RenderInput extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //   }
+      //   render() {
+      //     return (
+      //       <div>
+      //         <h3>Input Render:</h3>
+      //         <p>{this.props.input}</p>
+      //       </div>
+      //     );
+      //   }
+      // };
+    ),
   },
   {
     path: "/example32",
-    main: () => <div></div>,
+    main: () => (
+      <div></div>
+      // class MyComponent extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //   }
+      // componentWillMount() {
+      //   console.log('Component being mounted');
+      // }
+      //   render() {
+      //     return <div />
+      //   }
+      // };
+    ),
   },
   {
     path: "/example33",
-    main: () => <div></div>,
+    main: () => (
+      <div>
+        {/* Change code below this line */}
+        <h1>Active Users: 1273</h1>
+        {/* Change code above this line */}
+      </div>
+      // class MyComponent extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //     this.state = {
+      //       activeUsers: null
+      //     };
+      //   }
+      //   componentDidMount() {
+      //     setTimeout(() => {
+      //       this.setState({
+      //         activeUsers: 1273
+      //       });
+      //     }, 2500);
+      //   }
+      //   render() {
+      //     return (
+      //       <div>
+      //         {/* Change code below this line */}
+      //         <h1>Active Users: { this.state.activeUsers }</h1>
+      //         {/* Change code above this line */}
+      //       </div>
+      //     );
+      //   }
+      // }
+    ),
   },
   {
     path: "/example34",
-    main: () => <div></div>,
+    main: () => (
+      <div>
+        <h1>You pressed the enter key!</h1>
+      </div>
+      // class MyComponent extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //     this.state = {
+      //       message: ""
+      //     };
+      //     this.handleEnter = this.handleEnter.bind(this);
+      //     this.handleKeyPress = this.handleKeyPress.bind(this);
+      //   }
+      //   // change code below this line
+      //   componentDidMount() {
+      //     document.addEventListener("keydown", this.handleKeyPress);
+      //   }
+      //   componentWillUnmount() {
+      //     document.removeEventListener("keydown", this.handleKeyPress);
+      //   }
+      //   // change code above this line
+      //   handleEnter() {
+      //     this.setState({
+      //       message: this.state.message + "You pressed the enter key! "
+      //     });
+      //   }
+      //   handleKeyPress(event) {
+      //     if (event.keyCode === 13) {
+      //       this.handleEnter();
+      //     }
+      //   }
+      //   render() {
+      //     return (
+      //       <div>
+      //         <h1>{this.state.message}</h1>
+      //       </div>
+      //     );
+      //   }
+      // }
+    ),
   },
   {
     path: "/example35",
-    main: () => <div></div>,
+    main: () => (
+      <div>
+        <button>Add</button>
+        <h1>0</h1>
+      </div>
+
+      // class OnlyEvens extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //   }
+      //   shouldComponentUpdate(nextProps, nextState) {
+      //     console.log('Should I update?');
+      //      // change code below this line
+      //       if (nextProps.value % 2 == 0) {
+      //         return true;
+      //       }
+      //       return false;
+      //      // change code above this line
+      //   }
+      //   componentWillReceiveProps(nextProps) {
+      //     console.log('Receiving new props...');
+      //   }
+      //   componentDidUpdate() {
+      //     console.log('Component re-rendered.');
+      //   }
+      //   render() {
+      //     return <h1>{this.props.value}</h1>
+      //   }
+      // };
+
+      // class Controller extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //     this.state = {
+      //       value: 0
+      //     };
+      //     this.addValue = this.addValue.bind(this);
+      //   }
+      //   addValue() {
+      //     this.setState({
+      //       value: this.state.value + 1
+      //     });
+      //   }
+      //   render() {
+      //     return (
+      //       <div>
+      //         <button onClick={this.addValue}>Add</button>
+      //         <OnlyEvens value={this.state.value}/>
+      //       </div>
+      //     );
+      //   }
+      // };
+    ),
   },
   {
     path: "/example36",
-    main: () => <div></div>,
+    main: () => (
+      <div style={{ color: "red", fontSize: 72 }}>Big Red</div>
+      // class Colorful extends React.Component {
+      //   render() {
+      //     return (
+      //       <div style={{color: "red", fontSize: 72}}>Big Red</div>
+      //     );
+      //   }
+      // };
+    ),
   },
   {
     path: "/example37",
-    main: () => <div></div>,
+    main: () => (
+      <div
+        style={{ color: "purple", fontSize: 40, border: "2px solid purple" }}
+      >
+        Style Me!
+      </div>
+      // Change code above this line
+      // class Colorful extends React.Component {
+      //   render() {
+      //     // Change code below this line
+      //     return (
+      //       <div style={styles}>Style Me!</div>
+      //     );
+      //     // Change code above this line
+      //   }
+      // };
+
+      // const styles = {
+      //   color: 'purple',
+      //   fontSize: 40,
+      //   border: "2px solid purple",
+      // };
+    ),
   },
   {
     path: "/example38",
-    main: () => <div></div>,
+    main: () => (
+      <div>
+        <input
+          type="text"
+          style={{width: 235, margin: 5}}
+        />
+        <br />
+        <button>Ask the Magic Eight Ball!</button>
+        <br />
+        <h3>Answer:</h3>
+        <p>
+          {/* Change code below this line */}
+          Cannot predict now
+          {/* Change code above this line */}
+        </p>
+      </div>
+
+      // const inputStyle = {
+      //   width: 235,
+      //   margin: 5
+      // };
+
+      // class MagicEightBall extends React.Component {
+      //   constructor(props) {
+      //     super(props);
+      //     this.state = {
+      //       userInput: '',
+      //       randomIndex: ''
+      //     };
+      //     this.ask = this.ask.bind(this);
+      //     this.handleChange = this.handleChange.bind(this);
+      //   }
+      //   ask() {
+      //     if (this.state.userInput) {
+      //       this.setState({
+      //         randomIndex: Math.floor(Math.random() * 20),
+      //         userInput: ''
+      //       });
+      //     }
+      //   }
+      //   handleChange(event) {
+      //     this.setState({
+      //       userInput: event.target.value
+      //     });
+      //   }
+      //   render() {
+      //     const possibleAnswers = [
+      //       'It is certain',
+      //       'It is decidedly so',
+      //       'Without a doubt',
+      //       'Yes, definitely',
+      //       'You may rely on it',
+      //       'As I see it, yes',
+      //       'Outlook good',
+      //       'Yes',
+      //       'Signs point to yes',
+      //       'Reply hazy try again',
+      //       'Ask again later',
+      //       'Better not tell you now',
+      //       'Cannot predict now',
+      //       'Concentrate and ask again',
+      //       "Don't count on it",
+      //       'My reply is no',
+      //       'My sources say no',
+      //       'Most likely',
+      //       'Outlook not so good',
+      //       'Very doubtful'
+      //     ];
+      //     const answer = possibleAnswers[this.state.randomIndex];
+      //     return (
+      //       <div>
+      //         <input
+      //           type='text'
+      //           value={this.state.userInput}
+      //           onChange={this.handleChange}
+      //           style={inputStyle}
+      //         />
+      //         <br />
+      //         <button onClick={this.ask}>Ask the Magic Eight Ball!</button>
+      //         <br />
+      //         <h3>Answer:</h3>
+      //         <p>
+      //           {/* Change code below this line */}
+      //             {answer}
+      //           {/* Change code above this line */}
+      //         </p>
+      //       </div>
+      //     );
+      //   }
+      // }
+    ),
   },
   {
     path: "/example39",
@@ -904,7 +1227,7 @@ const routes = [
   {
     path: "/example47",
     main: () => <div></div>,
-  }
+  },
 ];
 
 export default routes;
